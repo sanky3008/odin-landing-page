@@ -1,0 +1,192 @@
+* {
+    /* padding: 0 50px 0 50px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.links {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.panel-one {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    gap: 70px;
+}
+
+.side-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-one {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.yay {
+    background-color: black;
+    border: 0px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 3px;
+    color: white;
+}
+
+.self-photo {
+    flex: 0 1 auto;
+    height: 300px;
+}
+
+.panel-two {
+    padding: 50px 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+
+.title-two {
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hobbies img{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.hobbies p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.panel-three {
+    background-color: white;
+    padding: 50px 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-content {
+    font-size: 48px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.panel-four {
+    background-color: black;
+    padding: 50px 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.cta-box {
+    background-color: white;
+    flex: 1 1 auto;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-side-text {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-info {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.email {
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: white;
+    padding: 50px 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-info {
+    font-size: 15px;
+    font-style: italic;
+}
